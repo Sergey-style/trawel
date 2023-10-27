@@ -504,6 +504,7 @@ color: #040404;
 
 .main_man {
 	background:#ffffff url(../img/place_image_here_510.png)right bottom no-repeat;
+	padding: 150px 0 50px 0;
 }
 .man_row {
 	
@@ -927,6 +928,7 @@ color: #ffffff;
 .footer_down_social{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .footer_logo_logo{
@@ -960,10 +962,6 @@ color: #ffffff;
 .footer_column{
 	margin-bottom: 50px;
 	margin-right: 0;
-}
-.footer_down_social{
-   flex-direction: column;
-   align-items: center;
 }
 .footer_logo_logo{
 	padding-bottom: 70px;
